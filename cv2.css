@@ -114,6 +114,13 @@ h3
     font-weight: bold;
     }
 
+img {
+	width: 110px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media screen and (max-width: 625px)
 {
 /* propriétés pour mobile */
