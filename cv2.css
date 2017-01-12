@@ -82,16 +82,19 @@ body{
     padding-left:120px;
     margin-right: 28px;
     margin-left: 10%;
-   background-color: #E3EDD8;
+   background-color: #808080;
 
     }
-
+h3{
+	color: #5F9EA0;
+}
 
 
 img {
 	width: 110px;
     justify-content: center;
     align-content: center;
+    background-repeat:no-repeat;
 }
 #carre {
     height: 20px;
