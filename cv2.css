@@ -1,10 +1,11 @@
 
 
 body{ 
-    background-color: #808080;
-    width: 1000px ;
+    background-image:url(fond.jpg);
+    width: 100%;
     font-family: Geneva, sans-serif; 
     margin: 0px;
+    background-attachment:fixed
 }
 
 
@@ -13,7 +14,7 @@ body{
     position: fixed;
     z-index: 1;
     height:40px;
-    width: 98%;
+    width: 100%;
     background-color: #668284;
     margin-bottom: 10px
     }
@@ -80,7 +81,7 @@ body{
 .right{
     padding-left:120px;
     margin-right: 28px;
-    margin-left: 30%;
+    margin-left: 10%;
    background-color: #E3EDD8;
 
     }
@@ -99,14 +100,16 @@ img {
  }
 
  div{
- 	animation-duration: 3s;
+ 	animation-duration: 5s;
  	animation-name: change;
+ 	animation-iteration-count: infinite;
  }
  @keyframes change {
  	from {
  		width: 20px;
  		height: 20px;
  		margin-left: 0%;
+ 		
  	}
  to {
  	width: 100%;
