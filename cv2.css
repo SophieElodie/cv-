@@ -5,7 +5,8 @@ body{
     width: 100%;
     font-family: Geneva, sans-serif; 
     margin: 0px;
-    background-attachment:fixed
+    background-attachment:fixed;
+    background-repeat:no-repeat;
 }
 
 
@@ -25,7 +26,7 @@ body{
     padding-bottom: 10px;
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #ffffff;
+    color: #A52A2A;
 }
 
 #age {
@@ -34,7 +35,7 @@ body{
     padding-bottom: 10px;
     font-size: 16px;
     font-family:Verdana,sans-serif;
-    color: #ffffff;
+    color: #A52A2A;
 
 }
 
@@ -44,7 +45,7 @@ body{
     padding-bottom: 10px;
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #ffffff;
+    color: #A52A2A;
 
 
 }
@@ -55,7 +56,7 @@ body{
     padding-bottom: 10px;
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #ffffff
+    color: #A52A2A;
 
 }
 #email{
@@ -64,16 +65,15 @@ body{
     padding-bottom: 10px;
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #ffffff;
+    color: #A52A2A;
 }
 
-#contact
-{
+#contact{
     margin-left:45%;
     padding-bottom: 10px;
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #ffffff;
+    color: #A52A2A;
     }
 
 
@@ -82,9 +82,9 @@ body{
     padding-left:120px;
     margin-right: 28px;
     margin-left: 10%;
-   background-color: #808080;
 
     }
+    
 h3{
 	color: #5F9EA0;
 }
@@ -96,17 +96,18 @@ img {
     align-content: center;
     background-repeat:no-repeat;
 }
+
 #carre {
     height: 20px;
     width: 20px;
-    background: black;
+    background: #696969;
  }
 
  div{
  	animation-duration: 5s;
  	animation-name: change;
- 	animation-iteration-count: infinite;
  }
+
  @keyframes change {
  	from {
  		width: 20px;
